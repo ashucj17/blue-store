@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(#55aff8, #ffffff);
 }
 
 .header {
@@ -27,6 +32,11 @@
   color: #555;
 }
 
+a {
+  text-decoration: none;
+  color: #555;
+}
+
 .login {
   padding: 10px 30px;
   border: none;
@@ -39,4 +49,35 @@
   max-width: 1300px;
   margin: auto;
   padding: 0 25px;
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.column-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.column-2 img {
+  width: 100%;
+  padding: 50px 0;
+}
+.column-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #55aff8;
+  color: #fcfcfc;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
 }
