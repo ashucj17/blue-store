@@ -84,6 +84,9 @@ a {
   line-height: 60px;
   margin: 25px 0;
 }
+.column-2 img {
+  height: 100vh;
+}
 
 .btn {
   display: inline-block;
