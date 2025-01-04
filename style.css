@@ -5,10 +5,6 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-body {
-  background: radial-gradient(#55aff8, #ffffff);
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -57,13 +53,19 @@ a {
 .login:hover {
   background-color: #555;
 }
+
+.main-container {
+  background: radial-gradient(#55aff8, #ffffff);
+}
 .container {
   max-width: 1300px;
   margin: auto;
   padding: 0 25px;
 }
 
-.hero-banner {
+.hero-banner,
+.fearutre-section,
+.product-section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -100,4 +102,37 @@ a {
 
 .btn:hover {
   background-color: #555;
+}
+
+.categories {
+  display: flex;
+  margin: 70px 0;
+}
+
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.col-3 img {
+  width: 100%;
+}
+
+.categories-container,
+.products-container {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0 25px;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  min-width: 200px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.col-4 img {
+  max-width: 100%;
 }
