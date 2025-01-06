@@ -309,8 +309,8 @@ small {
 .footer-col-3,
 .footer-col-4 {
   flex-basis: 12%;
-  text-align: left;
-  padding-left: 100px;
+  text-align: center;
+  /* padding-left: 100px; */
 }
 
 ul {
@@ -334,4 +334,63 @@ ul {
 
 .copyright {
   text-align: center;
+}
+
+.hemburger-menu {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+/* --------------media query for menu--------------------- */
+
+@media only screen and (max-width: 800px) {
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #777;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a {
+    color: #fcfcfc;
+  }
+  .hemburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* ----------------media query for srreen size less then 600px----------------------- */
+@media only screen and (max-width: 600px) {
+  .hero-banner,
+  .fearutre-section,
+  .product-section,
+  .testimonial-section,
+  .brands-section,
+  .footer {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .column-2,
+  .col-3,
+  .col-4,
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3,
+  .footer-col-4,
+  .footer-col-5 {
+    flex-basis: 100%;
+    text-align: center;
+  }
 }
