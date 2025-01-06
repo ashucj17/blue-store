@@ -65,7 +65,8 @@ a {
 
 .hero-banner,
 .fearutre-section,
-.product-section {
+.product-section,
+.testimonial-section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -121,7 +122,8 @@ a {
 }
 
 .categories-container,
-.products-container {
+.products-container,
+.testimonial-container {
   max-width: 1080px;
   margin: auto;
   padding: 0 25px;
@@ -194,4 +196,42 @@ h4 {
 
 small {
   color: #555;
+}
+
+/* ----------------Testimonial------------------------- */
+.testimonial {
+  padding-top: 80px;
+}
+
+.testimonial .col-3 {
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0 #55aff8;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.testimonial .col-3 img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.testimonial .col-3:hover {
+  transform: translateY(-10px);
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  color: #55aff8;
+}
+
+.testimonial .col-3 p {
+  color: #888;
+  font-size: 14px;
+}
+
+.testimonial .col-3 h3 {
+  font-weight: normal;
+  color: #555;
+  font-size: 16px;
 }
