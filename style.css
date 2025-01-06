@@ -75,6 +75,7 @@ a {
 .column-2 {
   flex-basis: 50%;
   min-width: 300px;
+  padding: 50px;
 }
 
 .column-2 img {
@@ -131,6 +132,7 @@ a {
   min-width: 200px;
   padding: 10px;
   margin-top: 50px;
+  margin-bottom: 50px;
   transition: transform 0.5s;
 }
 
@@ -176,4 +178,20 @@ h4 {
 .col-4:hover {
   transform: translateY(-5px);
   box-shadow: 2px 2px 10px #55aff8, -2px -2px 10px #55aff8;
+}
+
+/* ---------offer------------- */
+
+.product-offer {
+  background: radial-gradient(#55aff8, #ffffff);
+  margin-top: 80px;
+  padding: 30px auto;
+}
+
+.column-2 .offer-image {
+  padding: 50px;
+}
+
+small {
+  color: #555;
 }
