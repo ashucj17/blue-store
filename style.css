@@ -296,6 +296,15 @@ small {
   flex-basis: 30%;
 }
 
+.footer-col-1 h3 {
+  color: #55aff8;
+}
+
+.footer-col-1 p:hover {
+  color: #55aff8;
+  cursor: pointer;
+}
+
 .footer-col-2 {
   flex: 1;
   text-align: center;
@@ -312,7 +321,20 @@ small {
   text-align: center;
   /* padding-left: 100px; */
 }
+.footer-col-3 h3,
+.footer-col-4 h3 {
+  color: #55aff8;
+}
 
+.footer-col-3 li:hover {
+  color: #55aff8;
+  cursor: pointer;
+}
+
+.footer-col-4 li:hover {
+  color: #55aff8;
+  cursor: pointer;
+}
 ul {
   list-style: none;
 }
