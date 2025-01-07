@@ -364,6 +364,42 @@ ul {
   display: none;
 }
 
+/* --------------All products page------------------------ */
+
+.row {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
+select {
+  border: 1px solid #55aff8;
+  padding: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.page-navigation {
+  margin: 0 auto 80px;
+}
+
+.page-navigation span {
+  display: inline-block;
+  border: 1px solid #55aff8;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.page-navigation span:hover {
+  background-color: #55aff8;
+  color: #fcfcfc;
+}
+
 /* --------------media query for menu--------------------- */
 
 @media only screen and (max-width: 800px) {

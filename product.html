@@ -6,58 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>Bluestore</title>
+    <title>All Products - Bluestore</title>
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="container">
-            <header class="header">
-                <div class="logo">
-                    <a href="./index.html"><img src="./images/bluestore_logo.png" alt="site-logo" width="125px"></a>
-                </div>
-                <nav class="navbar">
-                    <ul class="menu-items" id="menuItems">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./product.html">Products</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Accounts</a></li>
-                    </ul>
-                </nav>
-                <img class="cart-icon" src="./images/cart-shopping.svg" alt="cart_logo">
-                <button class="login">Login</button>
-                <img class="hemburger-menu" src="./images/menu.png" onclick="menuToggle()">
-            </header>
-            <div class="hero-banner">
-                <div class="column-2">
-                    <h1>Make your workout more engaging</h1>
-                    <p>Upon my departure from this world and the completion of my activities,<br>I want my detractors to
-                        kiss
-                        my ass and bury me upside down.</p>
-                    <a href="#" class="btn">Explore now &#8594;</a>
-                </div>
-                <div class="column-2">
-                    <img class="." src="./images/image1.png" alt="">
-                </div>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/bluestore_logo.png" alt="site-logo" width="125px"></a>
             </div>
-        </div>
+            <nav class="navbar">
+                <ul class="menu-items" id="menuItems">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Accounts</a></li>
+                </ul>
+            </nav>
+            <img class="cart-icon" src="./images/cart-shopping.svg" alt="cart_logo">
+            <button class="login">Login</button>
+            <img class="hemburger-menu" src="./images/menu.png" onclick="menuToggle()">
+        </header>
+    </div>
     </div>
 
-    <!-- -----------------fertured categories------------- -->
-    <div class="categories">
-        <div class="categories-container">
-            <div class="fearutre-section">
-                <div class="col-3"><img src="./images/category-1.jpg" alt=""></div>
-                <div class="col-3"><img src="./images/category-2.jpg" alt=""></div>
-                <div class="col-3"><img src="./images/category-3.jpg" alt=""></div>
-            </div>
-        </div>
-    </div>
-    <!-- -----------------fertured products---------------->
+
     <div class="products-container">
+        <div class="product-section row">
 
-        <h2 class="featured-heading">Featured Products</h2>
+            <h2>All Products</h2>
+            <select name="" id="">
+                <option value="">Default sorting</option>
+                <option value="">Sort by price</option>
+                <option value="">Sort by popularity</option>
+                <option value="">Sort by rating</option>
+                <option value="">Sort by slaes</option>
+            </select>
+        </div>
         <div class="product-section">
             <div class="col-4">
                 <img src="./images/product-1.jpg" alt="">
@@ -112,7 +98,6 @@
                 <p>$50.00</p>
             </div>
         </div>
-        <h2 class="featured-heading">Latest Products</h2>
         <div class="product-section">
             <div class="col-4">
                 <img src="./images/product-5.jpg" alt="">
@@ -220,99 +205,15 @@
                 <p>$50.00</p>
             </div>
         </div>
-    </div>
-    <!-- ---------Offer---------- -->
-    <div class="product-offer">
-        <div class="product-section">
-            <div class="column-2"><img class="offer-image" src="./images/smart_band_9.png" alt=""></div>
-            <div class="column-2">
-                <p>Exclusively Available On Bluestore</p>
-                <h1>Smart Band 9</h1>
-                <small>Xiaomi Smart Band 9 Global Version (2024) 1.62" Amoled Display | 233 mAh Battery | up<br>to 21
-                    Days
-                    of Battery Life | Over 150 Workout Modes | BT 5.4 | 50M Water Resistant - Midnight Black</small>
-                <a href="#" class="btn">Buy now &#8594;</a>
-            </div>
-        </div>
-    </div>
-    <!------------------Testimonial------------------------->
-    <div class="testimonial">
-        <div class="testimonial-container">
-            <div class="testimonial-section">
-                <div class="col-3">
-                    <p><i class="fa-solid fa-quote-left"></i> Small watch that can be very suitable for a young teenager
-                        (from 10 years old without problem) and that connects to your
-                        smartphone. The link with the laptop is customizable and you can limit access from the watch.
-                        All physical and cardio
-                        parameters are recorded. Excellent value for money! <i class="fa-solid fa-quote-right"></i></p>
-                    <div class="ratings">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star-half-stroke"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <img src="./images/user-1.png" alt="">
-                    <h3>Sear Parker</h3>
-                </div>
-                <div class="col-3">
-                    <p><i class="fa-solid fa-quote-left"></i> Small watch that can be very suitable for a young teenager
-                        (from 10 years old without problem) and that connects to your smartphone. The link with the
-                        laptop is customizable and you can limit access from the watch. All physical and cardio
-                        parameters are recorded. Excellent value for money! <i class="fa-solid fa-quote-right"></i></p>
-                    <div class="ratings">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star-half-stroke"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <img src="./images/user-2.png" alt="">
-                    <h3>John Davis</h3>
-                </div>
-                <div class="col-3">
-                    <p><i class="fa-solid fa-quote-left"></i> Small watch that can be very suitable for a young teenager
-                        (from 10 years old without problem) and that connects to your
-                        smartphone. The link with the laptop is customizable and you can limit access from the watch.
-                        All physical and cardio
-                        parameters are recorded. Excellent value for money <i class="fa-solid fa-quote-right"></i>
-                    </p>
-                    <div class="ratings">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star-half-stroke"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <img src="./images/user-3.png" alt="">
-                    <h3>Indiana Jones</h3>
-                </div>
-            </div>
+        <div class="page-navigation">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
         </div>
     </div>
 
-    <!------------------Brands------------------------->
-    <div class="brands">
-        <div class="brands-container">
-            <div class="brands-section">
-                <div class="col-5">
-                    <img src="./images/logo-philips.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="./images/logo-coca-cola.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="./images/logo-godrej.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="./images/logo-paypal.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="./images/logo-oppo.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
     <!-------------------Footer----------------------->
     <div class="footer-container">
         <div class="container">
