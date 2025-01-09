@@ -451,6 +451,16 @@ select:focus {
     flex-basis: 100%;
     text-align: center;
   }
+
+  .single-product .column-2 {
+    text-align: left;
+    padding: 5px 0;
+  }
+
+  .single-product h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 /* Single produt details */
