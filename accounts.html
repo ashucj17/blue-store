@@ -31,73 +31,36 @@
     </div>
     </div>
 
-    <!-- cart details -->
-    <div class="cart-container cart-page">
-        <table>
-            <tr>
-                <th>Products</th>
-                <th>Quantity</th>
-                <th>Subtotal</th>
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="./images/buy-1.jpg" alt="">
-                        <div>
-                            <p>Red Puma T-shirt</p>
-                            <small>Price: $99.00</small>
-                            <a href="">Remove</a>
+    <!-- Accounts details -->
+    <div class="accounts-page">
+        <div class="account-container">
+            <div class="account-section">
+                <div class="column-2">
+                    <img src="./images/mma.png" alt="">
+                </div>
+                <div class="column-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span>Login</span>
+                            <span>Register</span>
+                            <hr class="indicator">
                         </div>
-                    </div>
-                </td>
-                <td><input type="number" value="1"></td>
-                <td>$99.00</td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="./images/buy-2.jpg" alt="">
-                        <div>
-                            <p>Black Puma Shoe</p>
-                            <small>Price: $112.00</small>
-                            <a href="">Remove</a>
-                        </div>
-                    </div>
-                </td>
-                <td><input type="number" value="1"></td>
-                <td>$112.00</td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="./images/buy-3.jpg" alt="">
-                        <div>
-                            <p>Grey Puma Trouser</p>
-                            <small>Price: $80.00</small>
-                            <a href="">Remove</a>
-                        </div>
-                    </div>
-                </td>
-                <td><input type="number" value="1"></td>
-                <td>$80.00</td>
-            </tr>
-        </table>
+                        <form id="loginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot password</a>
+                        </form>
 
-        <div class="total-price">
-            <table>
-                <tr>
-                    <td>Subtotal</td>
-                    <td>$291</td>
-                </tr>
-                <tr>
-                    <td>Tax</td>
-                    <td>$52.38</td>
-                </tr>
-                <tr>
-                    <td>Total</td>
-                    <td>$343.38</td>
-                </tr>
-            </table>
+                        <form id="regForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-------------------Footer----------------------->

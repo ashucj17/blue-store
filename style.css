@@ -68,6 +68,7 @@ a {
 .product-section,
 .testimonial-section,
 .brands-section,
+.account-section,
 .footer {
   display: flex;
   justify-content: space-around;
@@ -128,7 +129,9 @@ a {
 .products-container,
 .testimonial-container,
 .brands-container,
-.cart-container {
+.cart-container,
+.account-container,
+.form-container {
   max-width: 1080px;
   margin: auto;
   padding: 0 25px;
@@ -401,73 +404,6 @@ select:focus {
   color: #fcfcfc;
 }
 
-/* --------------media query for menu--------------------- */
-
-@media only screen and (max-width: 800px) {
-  nav ul {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    background-color: #777;
-    width: 100%;
-    overflow: hidden;
-    transition: max-height 0.5s;
-  }
-
-  .navbar ul li {
-    display: block;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  nav ul li a {
-    color: #fcfcfc;
-  }
-  .hemburger-menu {
-    display: block;
-    cursor: pointer;
-  }
-}
-
-/* ----------------media query for srreen size less then 600px----------------------- */
-@media only screen and (max-width: 600px) {
-  .hero-banner,
-  .fearutre-section,
-  .product-section,
-  .testimonial-section,
-  .brands-section,
-  .footer {
-    flex-basis: 100%;
-    text-align: center;
-  }
-  .column-2,
-  .col-3,
-  .col-4,
-  .footer-col-1,
-  .footer-col-2,
-  .footer-col-3,
-  .footer-col-4,
-  .footer-col-5 {
-    flex-basis: 100%;
-    text-align: center;
-  }
-
-  .single-product .column-2 {
-    text-align: left;
-    padding: 5px 0;
-  }
-
-  .single-product h1 {
-    font-size: 30px;
-    line-height: 30px;
-  }
-
-  .cart-info {
-    display: none;
-  }
-}
-
 /* Single produt details */
 
 .single-product img {
@@ -585,4 +521,143 @@ td:last-child {
 
 th:last-child {
   text-align: right;
+}
+
+/* -------------Account Page---------------- */
+
+.accounts-page {
+  padding: 50px 0;
+  background: radial-gradient(#55aff8, #ffffff);
+}
+
+.form-container {
+  background-color: #fcfcfc;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px #0000001a;
+}
+
+.form-container span {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.form-btn {
+  display: inline-block;
+}
+
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+form .btn:focus {
+  outline: none;
+}
+
+#loginForm {
+  left: -300px;
+}
+
+#regForm {
+  left: 0;
+}
+
+.indicator {
+  width: 100px;
+  border: none;
+  background-color: #55aff8;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(100px);
+}
+/* --------------media query for menu--------------------- */
+
+@media only screen and (max-width: 800px) {
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #777;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a {
+    color: #fcfcfc;
+  }
+  .hemburger-menu {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* ----------------media query for srreen size less then 600px----------------------- */
+@media only screen and (max-width: 600px) {
+  .hero-banner,
+  .fearutre-section,
+  .product-section,
+  .testimonial-section,
+  .brands-section,
+  .footer {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .column-2,
+  .col-3,
+  .col-4,
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3,
+  .footer-col-4,
+  .footer-col-5 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .single-product .column-2 {
+    text-align: left;
+    padding: 5px 0;
+  }
+
+  .single-product h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .cart-info {
+    display: none;
+  }
 }
