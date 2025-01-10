@@ -91,8 +91,9 @@ a {
   line-height: 60px;
   margin: 25px 0;
 }
-.column-2 img {
-  height: 100vh;
+
+.column-2 small {
+  font-size: 16px;
 }
 
 .btn {
@@ -206,6 +207,7 @@ h4 {
 }
 
 small {
+  font-size: 16px;
   color: #555;
 }
 
@@ -536,9 +538,10 @@ th:last-child {
   height: 400px;
   position: relative;
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 0;
   margin: auto;
   box-shadow: 0 0 20px 0px #0000001a;
+  overflow: hidden;
 }
 
 .form-container span {
@@ -556,9 +559,11 @@ th:last-child {
 
 .form-container form {
   max-width: 300px;
+  margin-top: 10px;
   padding: 0 20px;
   position: absolute;
   top: 130;
+  transition: transform 1s;
 }
 
 form input {
@@ -594,6 +599,7 @@ form .btn:focus {
   height: 3px;
   margin-top: 8px;
   transform: translateX(100px);
+  transition: transform 1s;
 }
 /* --------------media query for menu--------------------- */
 
@@ -659,5 +665,10 @@ form .btn:focus {
 
   .cart-info {
     display: none;
+  }
+
+  .column-2 h1 {
+    font-size: 45px;
+    line-height: 40px;
   }
 }
