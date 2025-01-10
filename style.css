@@ -79,15 +79,15 @@ a {
 .column-2 {
   flex-basis: 50%;
   min-width: 300px;
-  padding: 50px;
+  padding: 20px;
 }
 
 .column-2 img {
   width: 100%;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 .column-2 h1 {
-  font-size: 50px;
+  font-size: 55px;
   line-height: 60px;
   margin: 25px 0;
 }
