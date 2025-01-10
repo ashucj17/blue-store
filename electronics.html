@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Electronics - Bluestore</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/bluestore_logo.png" alt="site-logo" width="125px"></a>
+            </div>
+            <nav class="navbar">
+                <ul class="menu-items" id="menuItems">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./fashion.html">Fashion</a></li>
+                    <li><a href="./electronics.html">Electronics</a></li>
+                    <li><a href="./grocery.html">Grocery</a></li>
+                    <li><a href="./accounts.html">Accounts</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img class="cart-icon" src="./images/cart-shopping.svg" alt="cart_logo"></a>
+            <button class="login">Login</button>
+            <img class="hemburger-menu" src="./images/menu.png" onclick="menuToggle()">
+        </header>
+    </div>
+    </div>
+
+
+    <div class="products-container">
+        <div class="product-section row">
+
+            <h2>All Products</h2>
+            <select name="" id="">
+                <option value="">Default sorting</option>
+                <option value="">Sort by price</option>
+                <option value="">Sort by popularity</option>
+                <option value="">Sort by rating</option>
+                <option value="">Sort by slaes</option>
+            </select>
+        </div>
+        <div class="product-section">
+            <div class="col-4">
+                <a href="./single-product.html">
+                    <img src="./images/Redmi buds.png" alt="">
+                    <h4>REDMI Buds 5C </h4>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>$49.00</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <img src="./images/mivi-speaker.png" alt="">
+                <h4>Mivi Fort H120 Soundbar </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$115.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/mivi-play-5.png" alt="">
+                <h4>Mivi Play 5 </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/portronics.png" alt="">
+                <h4>Portronics SoundDrum 1 10W TWS </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$52.00</p>
+            </div>
+        </div>
+        <div class="product-section">
+            <div class="col-4">
+                <img src="./images/fastrack-pro.png" alt="">
+                <h4>Fastrack Pro </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$69.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/havells.png" alt="">
+                <h4>Havells Trim Pro 3 </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$71.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/fastrack-revolt.png" alt="">
+                <h4>Fastrack Revolt </h4>
+                <div class=" ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$92.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/ChinuStyle.png" alt="">
+                <h4>ChinuStyle Trimmer </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$30.00</p>
+            </div>
+        </div>
+        <div class="product-section">
+            <div class="col-4">
+                <img src="./images/i9-pro.png" alt="">
+                <h4>I9 Pro </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$121.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/i9-pro-smart.png" alt="">
+                <h4>I9 Pro smart </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$180.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/raccoon.png" alt="">
+                <h4>Raccoon Super Smart </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>$40.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/triminity.png" alt="">
+                <h4>Triminity Pro </h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$72.00</p>
+            </div>
+        </div>
+        <div class="page-navigation">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+    <!-------------------Footer----------------------->
+    <div class="footer-container">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile's</p>
+                    <div class="store-logo">
+                        <img src="./images/play-store.png" alt="">
+                        <img src="./images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/bluestore_logo.png" alt="">
+                    <p>Our goal is to keep sports affordable and accessible for as many people as possible.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Terms & condition</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Linkedin</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Twiter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyight 2025 - Bluestore</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
